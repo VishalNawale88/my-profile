@@ -15,7 +15,6 @@
     padding:10px;
     position: fixed;
     width: 100%;
-    z-index:1;
 }
 
 header p {margin: 0 auto; width:800px;}
@@ -45,8 +44,7 @@ nav a {
   position: fixed;
   background-color: #666;
   width: 100%;
-  z-index:1;
-  margin-top:40px;
+  top:40px;
 }
 #navSection li{
   display: inline;
@@ -110,4 +108,4 @@ nav a {
 
 footer p {font-family: "Poppins", sans-serif;}
 
-footer table, footer td, footer th, footer tr  {border: none; text-align: right; float: right;}
+footer table, footer td, footer th, footer tr  {border: none;  position: fixed; right: 0; bottom: 0; float:right;}
